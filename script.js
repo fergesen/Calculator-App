@@ -89,7 +89,7 @@ function performOp(clickObj) {
             //displayOutput.innerText = outputString
             let output = document.createElement("tr")
             output.innerText = outputString
-            document.getElementById("user-output").append(output)
+            document.getElementById("user-output").prepend(output)
 
             // Incase they want to make more calculations reset the string
             evalStringArray = []
