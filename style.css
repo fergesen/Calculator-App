@@ -3,6 +3,11 @@ body {
     margin: auto;
 }
 
+body {
+    max-width: 350px;
+    margin: auto;
+}
+
 Table {
     -webkit-touch-callout: none; /* iOS Safari */
       -webkit-user-select: none; /* Safari */
