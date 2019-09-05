@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Calculator</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      <div id="root">
+        <Table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th id="calc-display" colspan="4">0</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="calc-clear" colspan="2">Clear</td>
+                    <td class="calc-btn-op" id="calc-mod">%</td>
+                    <td class="calc-btn-op" id="calc-divide">/</td>
+                </tr>
+                <tr>
+                    <td class="calc-btn-num" id="calc-seven">7</td>
+                    <td class="calc-btn-num" id="calc-eight">8</td>
+                    <td class="calc-btn-num" id="calc-nine">9</td>
+                    <td class="calc-btn-op" id="calc-multiply">*</td>
+                </tr>
+                <tr>
+                    <td class="calc-btn-num" id="calc-four">4</td>
+                    <td class="calc-btn-num" id="calc-five">5</td>
+                    <td class="calc-btn-num" id="calc-six">6</td>
+                    <td class="calc-btn-op" id="calc-minus">-</td>
+                </tr>
+                <tr>
+                    <td class="calc-btn-num" id="calc-one">1</td>
+                    <td class="calc-btn-num" id="calc-two">2</td>
+                    <td class="calc-btn-num" id="calc-three">3</td>
+                    <td class="calc-btn-op" id="calc-plus">+</td>
+                </tr>
+                <tr>
+                    <td class="calc-btn-num" id="calc-zero" colspan="2">0</td>
+                    <td id="calc-point">.</td>
+                    <td class="calc-btn-op" id="calc-equals">=</td>
+                </tr>
+            </tbody>
+        </Table>
+
+        <div>
+            <h5>Output:</h5>
+            <p id="user-output"></p>
+        </div>
+
+      </div>
+    
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

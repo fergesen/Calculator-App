@@ -1,0 +1,31 @@
+Table {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome and Opera */
+    max-width: 350px;
+    
+}
+
+td {
+    align-content: center;
+}
+
+
+/* td {
+    width: 20px;
+} */
+
+.calc-btn-op {
+    background-color: orange;
+}
+.calc-btn-num, #calc-point {
+    background-color: rgb(41, 41, 41);
+    color: white;
+}
+#calc-clear {
+    background-color: rgb(172, 170, 170);
+}
