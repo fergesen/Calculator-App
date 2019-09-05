@@ -1,24 +1,8 @@
-//const fs = require('fs')
-
-// let oneBtn = document.getElementById('calc-one')
-// let twoBtn = document.getElementById('calc-two')
-// let threeBtn= document.getElementById('calc-three')
-// let fourBtn = document.getElementById('calc-four')
-// let fiveBtn = document.getElementById('calc-five')
-// let sixBtn = document.getElementById('calc-six')
-// let sevenBtn = document.getElementById('calc-seven')
-// let eightBtn = document.getElementById('calc-eight')
-// let nineBtn = document.getElementById('calc-nine')
-// let zeroBtn = document.getElementById('calc-zero')
 
 let displayBtnElement = document.getElementById('calc-display')
 let clearBtn = document.getElementById('calc-clear')
-// let modBtn = document.getElementById('calc-mod')
+
 let pointBtn = document.getElementById('calc-point')
-// let divideBtn = document.getElementById('calc-divide')
-// let multiplyBtn = document.getElementById('calc-multiply')
-// let minusBtn = document.getElementById('calc-minus')
-// let plusBtn = document.getElementById('calc-plus')
 
 let displayOutput = document.getElementById('user-output')
 
@@ -88,11 +72,11 @@ function performOp(clickObj) {
 
         case '=':
                 
-                // Calculate
-                evalStringArray.push(displayBtn)
-                console.log(evalStringArray)
-                let evaluation = eval(evalStringArray.join(' '))
-                displayBtnElement.innerText = evaluation
+            // Calculate
+            evalStringArray.push(displayBtn)
+            console.log(evalStringArray)
+            let evaluation = eval(evalStringArray.join(' '))
+            displayBtnElement.innerText = evaluation
                 
 
             // Create output
